@@ -96,7 +96,6 @@ class Webshots extends Component {
       console.log("enter valid url");
       return;
     }
-    var self = this;
     var payload = {
       remoteUrl: this.state.remoteUrl,
       imageName: this.getName(this.state.remoteUrl, this.state.format),
