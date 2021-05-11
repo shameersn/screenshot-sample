@@ -6,7 +6,7 @@ import TextField from "material-ui/TextField";
 import DropDownMenu from "material-ui/DropDownMenu";
 import MenuItem from "material-ui/MenuItem";
 import axios from "axios";
-var apiBaseUrl = "http://100.26.247.22:3001/capture";
+var apiBaseUrl = "https://limitless-woodland-09442.herokuapp.com/capture";
 
 class Webshots extends Component {
   constructor(props) {
